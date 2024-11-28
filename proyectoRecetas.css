@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    padding: 20px;
+}
+h1 {
+    font-size: 4em; 
+    font-family: 'Arial', sans-serif;
+    text-align: center; 
+    color: #333; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    margin: 0; 
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    width: 100%;
+    background-color: hsl(346, 22%, 85%);
+    padding: 10px 0;
+    color: rgb(41, 41, 41);
+    font-size: 1.2em;
+    text-align: left;
+}
+nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 10px 20px;
+    font-size: small;
+}
+nav a {
+    color: rgb(41, 41, 41);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+}
+nav a:hover {
+    color: hsl(346, 22%, 45%);
+}
+main {
+    width: 80%;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1; 
+}
+ul, ol {
+    width: 100%;
+    margin: 15px 0;
+    padding-left: 50px;
+    color: #555;
+    text-align: left;
+}
+li {
+    margin-bottom: 10px;
+    font-size: small;
+}
+p {
+    margin: 30px 30px;
+    line-height: 1.6;
+    text-align: left;
+    font-size: small;
+}
+.piePagina {
+    
+    width: 100%;
+    background-color: hsl(180, 25%, 25%);
+    position: fixed;
+    bottom: 0; 
+    left: 0; 
+    text-align: center; 
+    padding: 10px 0;
+    color: rgb(234, 224, 224); 
+    gap: 15px;
+    padding: 10px 20px;
+    font-size: small;
+}
+.piePagina a:hover {
+    color: rgb(103, 132, 132);
+}
+.piePagina a:visited{
+    color:hsl(0, 0%, 0%);
+}
+.piePagina a:active{
+    color: rgb(103, 132, 132);
+}
+
